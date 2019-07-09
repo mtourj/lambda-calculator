@@ -1,0 +1,114 @@
+.container {
+  background-color: crimson;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  width: 400px;
+  height: 640px;
+  user-select: none;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.number-button {
+  background-color: rgb(67, 67, 228);
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  box-shadow: -1px 2px 0 2px black;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  
+  transition: background-color 0.2s;
+}
+
+.number-button.zero {
+  width: 168px;
+  border-radius: 32px;
+}
+
+.number-button:hover {
+  background-color: rgb(81, 81, 250);
+}
+
+.specials {
+  display: flex;
+}
+
+.special-button {
+  background-color: rgb(94, 94, 226);
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  box-shadow: -1px 2px 0 2px black;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  
+  transition: background-color 0.2s;
+}
+
+.special-button:hover {
+  background-color: rgb(131, 131, 255);
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+}
+
+.operator-button {
+  background-color: rgb(94, 136, 226);
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  box-shadow: -1px 2px 0 2px black;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  
+  transition: background-color 0.2s;
+}
+
+.operator-button:hover {
+  background-color: rgb(122, 159, 240);
+}
+
+.display {
+  background: black;
+  height: 88px;
+  margin: 16px 0;
+  border-radius: 38px;
+  display: flex;
+  align-items: center;
+  padding: 2px 24px;
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+}
