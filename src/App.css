@@ -6,6 +6,7 @@
   width: 400px;
   height: 640px;
   user-select: none;
+  transform: translateY(15%);
 }
 
 .App {
